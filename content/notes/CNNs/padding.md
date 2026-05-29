@@ -1,5 +1,7 @@
 ---
 title: Padding
+enableToc: "true"
+order: "2"
 ---
 Every time we apply the convolutional operation, the size of the image shrinks. 
 
@@ -18,13 +20,13 @@ Now if we apply the convolutional operation to this matrix the resulting matrix 
 
 In general if we pad a image by `p` and then apply a filter `f` then the output matrix will have dimensions `(n + 2p - f + 1)`. 
 
-#### Valid Convolutions
+### Valid Convolutions
 In this type we do not use padding, So `p = 0`. 
 $$
 (n \times n) * (f \times f) \Longrightarrow ((n - f + 1) \times (n-f+1))
 $$ 
 
-#### Same Convolutions
+### Same Convolutions
 Pad so that output size is the same as the input size. So in this case we need 
 $$
 n + 2p -f +1 = n
@@ -37,3 +39,5 @@ $$
 >[!note]
 >In computer vision problem `f` is usually odd
 
+
+Another related topic is [[strided convolution | Strided Convolution]]  

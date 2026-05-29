@@ -1,5 +1,7 @@
 ---
 title: Edge Detection
+enableToc: "true"
+order: "1"
 ---
 The convolutional operation is of the building block of CNNs. In this section we will see the example of Vertical Edge Detection 
 
