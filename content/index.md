@@ -14,7 +14,7 @@ I do not want to be so intellectually disabled that a day without `AI` would mak
 Here you will find : 
 - `project logs` - They will contain the research, the decisions and why I took took them, how a certain piece of code works and why it works, notes and some other stuff. 
 
-- `notes` - Will have explanations of things I am learning. This will be helpful for me to refer when I am stuck. 
+- [[notes/index| note]] - Will have explanations of things I am learning. This will be helpful for me to refer when I am stuck. 
 
 - `TIL` - For quick stuff I learned or discovered during the day. 
 

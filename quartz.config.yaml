@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: IBM Plex Mono
+      body: IBM Plex Mono
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -266,7 +266,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: abecedarium
+      theme: true-black
       variation: 
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
