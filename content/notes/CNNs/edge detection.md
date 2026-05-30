@@ -63,3 +63,5 @@ By setting this values as parameters, it is seen that neural networks can learn 
 In general if we have a `n x n` image and a `f x f` filter then our resultant image matrix will have dimensions `(n - f + 1) x (n - f + 1)` 
 
 In order to build deep neural networks, one modification which we need to make to the basic convolutional operation is [[padding | Padding]]
+
+In this example we performed convolution on only two dimensional images i.e. with only two colour channels (such as black and white images). To perform it on images with more channels were do [[convolutions over volume | Convolution over volumes]]. 

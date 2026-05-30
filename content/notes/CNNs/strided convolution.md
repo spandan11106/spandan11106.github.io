@@ -27,4 +27,5 @@ In general if we have a `n x n` image, a `f x f` filter, if we use padding `p` a
 If the above fraction is not an integer, we round it down. By convention, while performing strided convolution, if after moving the filter by either `s` columns or rows, if we find the filter having some of its part outside the image, we do not compute that part.
 
 You might have seen the use of the word convolution to represent a different process, but in deep learning literature this is what is defined as convolution. To read more on this go to - [[cross-correlation vs. convolution | Technical note on cross-correlation vs. convolution]]
- 
+
+Now we know how convolution is performed on two dimension images, let us move to three dimensional volumes (example. `RGB` images) in [[convolutions over volume | Convolutions over Volume]] 

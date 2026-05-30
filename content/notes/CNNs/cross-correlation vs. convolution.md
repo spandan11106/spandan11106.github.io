@@ -1,6 +1,5 @@
 ---
 title: Cross-correlation vs. Convolution
-order: "4"
 ---
 In mathematics and physics literature the process we just used, that is placing the kernel (filter) on the top - left of the image and multiply element-wise and then move the kernel one step right for the next element until we find all the values is called as `cross-correlation`. 
 
