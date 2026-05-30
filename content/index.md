@@ -11,6 +11,8 @@ Over the last year I have noticed that Artificial Intelligence has slowly killed
 
 I do not want to be so intellectually disabled that a day without `AI` would make me miserable. This `digital garden` will have my unfiltered words and thoughts all typed by me (even while typing this the urge to use `GPT` is high).
 
+[[2026|This is what I am upto this year.]]
+
 Here you will find : 
 - `project logs` - They will contain the research, the decisions and why I took took them, how a certain piece of code works and why it works, notes and some other stuff. 
 
