@@ -1,0 +1,1 @@
+The cozy corner for anything visual — images, videos, spatial stuff, 3D, CNNs, and all the models that deal with seeing and understanding the world.

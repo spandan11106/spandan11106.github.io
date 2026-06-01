@@ -1,6 +1,9 @@
 ---
 title: Urban tree health mapping application
 enableToc: "true"
+tags:
+  - seedling
+  - AIML/vision
 ---
 ### How I got this idea
 So I was basically bored and wanted to do a good project which was in general helpful. Started scrolling on `reddit` and came across [r/arborists](https://www.reddit.com/r/arborists/) (`reddit sure takes you to random places`). Now I will be completely honest with you, I did not know what this word meant at all.
