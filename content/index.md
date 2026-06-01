@@ -20,7 +20,7 @@ Here you will find :
 
 - `TIL` - For quick stuff I learned or discovered during the day. 
 
-- `ideas` - Will have half-baked ideas, hypothesis, things I want to explore. 
+- [[ideas/index| ideas]] - Will have half-baked ideas, hypothesis, things I want to explore. 
 
 - `hobbies` - List of current and potential hobbies and how I am pursuing them. 
 
