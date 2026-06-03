@@ -28,24 +28,24 @@ This is what I have planned to show here. You might find some other stuff also.
 
 Well all that said, here is some info about myself:- 
 ```
-                            @me ------------------------------------------------ 
-                             Name: Spandan 
-                             Uptime: 20 years
-                             Profession: Student - Mech Engineering (Class of 2028)
+                        @me ------------------------------------------------ 
+                        Name: Spandan 
+                        Uptime: 20 years
+                        Profession: Student - Mech Engineering (Class of 2028)
 ⠀⠀⢀⡟⢀⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣧⠈⣧⠀⠀   Location: Mumbai, India 
 ⠀⠀⣼⠀⣼⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡆⢸⡆⠀   Languages: English, Marathi, Hindi, Gujurati
 ⠀⢰⣿⠀⠻⠧⣤⡴⣦⣤⣤⣤⣠⡶⣤⣤⠾⠗⠈⣿⠀   
 ⠀⠺⣷⡶⠖⠛⣩⣭⣿⣿⣿⣿⣿⣯⣭⡙⠛⠶⣶⡿⠃  @tech ---------------------------------------------- 
-⠀⠀⠀⢀⣤⠾⢋⣴⠟⣿⣿⣿⡟⢷⣬⠙⢷⣄⠀⠀⠀    OS: CachyOS 
-⢀⣠⡴⠟⠁⠀⣾⡇⠀⣿⣿⣿⡇⠀⣿⡇⠀⠙⠳⣦⣀    IDE: VSCode, LazyVim
-⢸⡏⠀⠀⠀⠀⢿⡇⠀⢸⣿⣿⠁⠀⣿⡇⠀⠀⠀⠈⣿    Programming: Python, C++, C, Bash
-⠀⣷⠀⠀⠀⠀⢸⡇⠀⠀⢻⠇⠀⠀⣿⠇⠀⠀⠀⠀⣿    Into: AI, Machine Learning, Low level shit.
+⠀⠀⠀⢀⣤⠾⢋⣴⠟⣿⣿⣿⡟⢷⣬⠙⢷⣄⠀⠀⠀   OS: Omarchy 3.8 
+⢀⣠⡴⠟⠁⠀⣾⡇⠀⣿⣿⣿⡇⠀⣿⡇⠀⠙⠳⣦⣀   IDE: VSCode, LazyVim
+⢸⡏⠀⠀⠀⠀⢿⡇⠀⢸⣿⣿⠁⠀⣿⡇⠀⠀⠀⠈⣿   Programming: Python, C++, C, Bash
+⠀⣷⠀⠀⠀⠀⢸⡇⠀⠀⢻⠇⠀⠀⣿⠇⠀⠀⠀⠀⣿   Into: AI, Machine Learning, Low level shit.
 ⠀⢿⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⢸⡏   
 ⠀⠘⡇⠀⠀⠀⠈⣷⠀⠀⠀⠀⠀⢀⡟⠀⠀⠀⠀⡾⠀   @socials -------------------------------------------
-⠀⠀⠹⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⢸⠇⠀⠀⠀⢰⠁⠀    Email.Personal - keepdoodling06@gmail.com
-⠀⠀⠀⠁⠀⠀⠀⠈⢇⠀⠀⠀⠀⡞⠀⠀⠀⠀⠁⠀⠀    Email.Work - spandanmhapsekar@gmail.com
-                              LinkedIn - Spandan Mhapsekar
-                              Github - spandan11106
+⠀⠀⠹⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⢸⠇⠀⠀⠀⢰⠁⠀   Email.Personal - keepdoodling06@gmail.com
+⠀⠀⠀⠁⠀⠀⠀⠈⢇⠀⠀⠀⠀⡞⠀⠀⠀⠀⠁⠀⠀   Email.Work - spandanmhapsekar@gmail.com
+                        LinkedIn - Spandan Mhapsekar
+                        Github - spandan11106
 ```
 
 This whole site is a work in progress.
