@@ -269,3 +269,11 @@ def pool_backward(dA, cache, mode = "max"):
     return dA_prev
 ```
 
+Now in the next few notes we will be seeing examples of some classic networks like the :
+- `LeNet-5`
+- `AlexNet`
+- `VGG`
+- `ResNet`
+- `Inception neural network` 
+
+[[classic networks | Classic Networks]]  [[resnet | ResNets]] 
