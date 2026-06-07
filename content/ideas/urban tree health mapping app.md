@@ -42,3 +42,5 @@ One of the main bottle necks is the data collection (as pointed by `Claude`). Bu
 I have also sent mail to [**Amenity Tree Care Association (ATCA)**](https://www.arbindia.com/) - A non-profit organization based in Mumbai regarding feedback on this idea.
 
 Update :- No response will now :(
+
+Update :- So people on `reddit` were not supportive of this idea. I could not find any constructive criticism, just some old `unc` saying that this will just be `AI slop` and will do no help. There was no reply to the mail as well. Why do such organisation do not have the time to at least reply. According to me this was a good idea, helpful also but let us put it on hold for now. 
