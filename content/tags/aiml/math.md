@@ -1,0 +1,1 @@
+The math corner of your AI world. This is where all the foundational stuff lives — linear algebra, calculus, probability, statistics, optimization, discrete math, and everything that makes the magic of machine learning actually work under the hood. From vectors and matrices to gradients, eigenvalues, and fancy probabilistic models. 
