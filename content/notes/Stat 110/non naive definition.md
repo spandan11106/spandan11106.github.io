@@ -99,3 +99,5 @@ $$
 $$
 P(A_1 \ \cup \ A_2 \ \cup \ ..... \ \cup \ A_n) \approx 1 - \frac{1}{e}
 $$
+
+Now let us look at [[conditional probability | Conditional Probability]] 
