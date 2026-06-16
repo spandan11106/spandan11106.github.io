@@ -14,9 +14,11 @@ I do not want to be so intellectually disabled that a day without `AI` would mak
 [[2026|This is what I am upto this year.]]
 
 Here you will find : 
-- `project logs` - They will contain the research, the decisions and why I took took them, how a certain piece of code works and why it works, notes and some other stuff. 
+- [[project_logs/index|project logs]] - They will contain the research, the decisions and why I took took them, how a certain piece of code works and why it works, notes and some other stuff. 
 
 - [[notes/index| note]] - Will have explanations of things I am learning. This will be helpful for me to refer when I am stuck. 
+
+- [[papers/index|papers]] - This is where you will find about the papers I have read, along with notes, summaries, key takeaways, things I understood (and didn’t), interesting ideas, and any follow-up thoughts.
 
 - `TIL` - For quick stuff I learned or discovered during the day. 
 

@@ -12,4 +12,6 @@ If we apply convolution, then if we use `6` filters with `f = 5` then we get onl
 - **Parameter sharing** : A feature detector that is useful in one part of the image is probably useful in another part of the image.
 - **Sparsity of connections** : In each layer, each output value depends only on a small number of inputs. 
 
-Also since we have less parameters, the network learns even with less training data.
+Also since we have less parameters, the network learns even with less training data. 
+
+Now we could look at the [[code implementation of convolution | Code implementation of Convolutional Neural Networks]] 
