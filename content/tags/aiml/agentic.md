@@ -1,0 +1,1 @@
+Hub for agentic AI — all about building autonomous, goal-driven systems that can think, plan, use tools, reason step-by-step, and take actions in the real world. This covers AI agents, ReAct patterns, tool-calling, multi-agent setups, memory systems, planning algorithms, and everything that turns passive models into proactive “doers.” 
