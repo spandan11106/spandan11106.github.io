@@ -27,4 +27,5 @@ You aren't just generating one image at a time. The pipeline offers distinct exe
 Normal AI forces the user to become a prompt engineer. This pipeline abstracts that away entirely. You provide structured inputs (Product Info, Target Audience, Desired Colors) and steering parameters (Aspect Ratio, Lighting Presets). The **Vision Agent** analyzes your uploads, and the **Image Designer Agent** constructs the highly complex generation prompt for you under the hood.
 
 To see updates on this project go to - [[updates on pixpilot | Updates]] 
-Github - [pixpilot](https://github.com/spandan11106/Pixpilot) 
+If you want to understand this project in depth go to - [[detail of pixpilot | Details]] 
+Github - [pixpilot](https://github.com/spandan11106/Pixpilot)
