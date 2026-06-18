@@ -33,3 +33,5 @@ Now if the dimensions of $z^{[l+2]}$ and $a^{[l]}$ are different, then we multip
 In terms of image generation neural networks. We usually use same convolution, so that we have the same consistent size across the residual block and do not have to use the $W_s$ matrix. 
 
 Now let us look at how we can use a [[one by one convolution | One by One Convolutions ]] 
+
+To look at the code implementation go to - [[code implementation of residual networks | Code implementation of Residual Networks]]. 

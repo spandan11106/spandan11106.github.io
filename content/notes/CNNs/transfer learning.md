@@ -18,4 +18,4 @@ So other things to improve performance on benchmarks
 - Ensembling : Train several networks independently and average their outputs.
 - Multi-crop at test time : Run classifier on multiple versions of test images and average results
 
-Let us see the [[code implementation of residual networks | Code Implementation of Residual Networks]]  
+Let us see the [[code implementation of mobile-net | Transfer Learning with MobileNet]]. 

@@ -21,3 +21,5 @@ In the `MobileNet v2` the following architecture is used :
 This is used 17 times in the original paper.
 
 Now let us look at [[transfer learning | Transfer Learning]] 
+
+For the code implementation of this network go to - [[code implementation of mobile-net | Code implementation of MobileNet with Transfer Learning]]. 
