@@ -44,3 +44,7 @@ I have also sent mail to [**Amenity Tree Care Association (ATCA)**](https://www.
 Update :- No response will now :(
 
 Update :- So people on `reddit` were not supportive of this idea. I could not find any constructive criticism, just some old `unc` saying that this will just be `AI slop` and will do no help. There was no reply to the mail as well. Why do such organisation do not have the time to at least reply. According to me this was a good idea, helpful also but let us put it on hold for now. 
+
+Update (19th July 2026) :- I got a response to my mail to [**Amenity Tree Care Association (ATCA)**](https://www.arbindia.com/). The director of the association liked the idea, said that machine learning solutions existed but one which in which citizens had a part would be something new. I have connected him on `whatsapp` for further questions about what they would like the project to deliver. 
+
+I think I will start working on this idea. Currently I am working on [[project_logs/pixpilot/index|Pixpilot]], but as soon as it becomes a deliverable product I will start working on this. 
