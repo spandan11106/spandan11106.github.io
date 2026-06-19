@@ -228,3 +228,4 @@ Epoch 10/10
 * When freezing layers, avoid keeping track of statistics (like in the batch normalization layer)
 * Fine-tune the final layers of your model to capture high-level details near the end of the network and potentially improve accuracy 
 
+Now that we have seen Classification in depth, let us look at [[object localization | Object Detection]]. 
