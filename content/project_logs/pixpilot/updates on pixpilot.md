@@ -6,6 +6,18 @@ order: "1"
 >[!note]
 >This note will have its latest changes on the top with data.
 
+### 20th June 2026
+Well we have made good progress on the pipeline. The vision analysis, summary and prompt agents are ready. Some test have also been performed, but testing with a real API is still left which I am thinking of doing in the last phase. Also the frontend has changed a lot. Added a dark theme, changed the layout to make it a bit simplistic and minimal. Planning to complete some more work such as adding the Models tab functionality, where we take the API from the user which they want to use. Other then that thinking of building the image generation agent. Will proceed with testing by next week. I want to release a beta version by the end of this month. 
+
+I am thinking of skipping the market analysis agent implementation for now. Will do it in stable release 1. I want a minimal product ready. 
+![[Pasted image 20260620145722.png]]
+
+![[Pasted image 20260620145849.png]]
+The video analysis and summary fail because there is no API key. 
+
+![[Pasted image 20260620145922.png]]
+
+
 ### 19th June 2026
 Huge updates for today. Started with the `frontend` part of the project. Used `claude` design for it. Backend connection are also in place. Some changes that I have to do 
  - The processed frames of the 3D model are not visible. Replace the placeholder gradients to show the images.
