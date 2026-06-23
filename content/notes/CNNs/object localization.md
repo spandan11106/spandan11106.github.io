@@ -34,3 +34,5 @@ Here we have used squared error for simplified description. In practice we proba
 
 ### Landmark detection
 We could modify a neural network to output specific locations of on image. Suppose we are building a face detection model and we also want to know the position of the corner of the eyes. So we need 4 four points in our output. What we could do is train the network of this points and then modify the output to give 9 values; 1 to know if the face is there or not and other 8 to know the x and y coordinate of the corners of the eye. This is known as landmark detection. 
+
+Now let us look at [[object detection | Object Detection]]. 
