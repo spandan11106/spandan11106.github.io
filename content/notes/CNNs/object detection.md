@@ -18,3 +18,4 @@ In a normal network in order get the output we use fully connected layers and th
 
 The above picture shows our `ConvNet`. Now suppose out test net has image of size `16 x 16 x 3`. What we can do is pass this image in the same network as above. When we do this we get a image with dimensions `2 x 2 x 4`. All the element in this image are the result we get by using the sliding window algorithm. 
 
+This convolutional implementation is computationally efficient, but it still is not accurate in outputting the bounding boxes. So get more accurate boxes one method is to use the [[yolo algorithm | YOLO algorithm]]. 
