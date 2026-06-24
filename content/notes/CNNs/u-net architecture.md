@@ -16,3 +16,4 @@ This is the `U-Net` Architecture :
 - The defining feature of U-Net is the horizontal **Skip Connections** (grey arrows). They copy high-resolution, low-level spatial features directly from the encoder and concatenate them with the upsampled features in the decoder. This prevents the loss of fine spatial details (like sharp edges or boundaries) during downsampling.
 - At the very end of the network, a $1 \times 1$ convolution (pink arrow) maps the dense feature channels to the desired number of classes, assigning a semantic label to each pixel to generate the final segmented output (as seen in the car example).
 
+Now we can look at the code implementation of [[image segmentation with U-Net | Image Segmentation with U-Net]]. 

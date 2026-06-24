@@ -27,4 +27,6 @@ $$
 
 Now after we run out image through the network, we perform non-max suppression. If we are using 2 anchor boxes, then for each gird cell, we get 2 predicted bounding boxes. Then we get rid of low probability predictions. For each class use non-max suppression to generate final prediction. 
 
-Now what if we want to know the exact pixels which belong to the object and which do not. For this we use algorithm such as [[semantic segmentation | Semantic Segmentation]]. 
+Now that we know what is the `YOLO` algorithm, you can see its implementation in [[car detection with YOLO | Object Detection for self-driving cars]].  
+
+What if we want to know the exact pixels which belong to the object and which do not. For this we use algorithm such as [[semantic segmentation | Semantic Segmentation]]. 
