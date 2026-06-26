@@ -13,4 +13,8 @@ In some networks this definition is also used :
 $$
 \hat{y} = \sigma\bigg(\sum_{k=1}^{128}w_k \frac{(f(x^{(i)}_k) - f(x^{(j)_k}))^2}{f(x^{(i)}_k) + f(x^{(j)_k})}\bigg)
 $$
+
+Now that we have covered the mathematics and theory, we can look at the [[code implementation of face recognition | Code Implementation of Face Recognition]]. 
+
 Now let us look at now we can use [[neural style transfer | Neural Style Transfer]] to make artwork. 
+
