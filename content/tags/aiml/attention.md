@@ -1,2 +1,0 @@
-The cozy spot for everything related to attention mechanisms. This covers the original self-attention, multi-head attention, scaled dot-product attention, Transformers, and all the variants (like cross-attention, sparse attention, efficient attention, etc.). Notes on how they work, why they’re powerful, implementation tricks, and their role in modern models like GPT, BERT, ViTs, and beyond. Basically the core idea that helped AI move from “recurrent” to “paying attention” to what actually matters.
-
