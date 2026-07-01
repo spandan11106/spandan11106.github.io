@@ -18,8 +18,6 @@ Here you will find :
 
 - [[notes/index| note]] - Will have explanations of things I am learning. This will be helpful for me to refer when I am stuck. 
 
-- [[papers/index|papers]] - This is where you will find about the papers I have read, along with notes, summaries, key takeaways, things I understood (and didn’t), interesting ideas, and any follow-up thoughts.
-
 - `TIL` - For quick stuff I learned or discovered during the day. 
 
 - [[ideas/index| ideas]] - Will have half-baked ideas, hypothesis, things I want to explore. 
