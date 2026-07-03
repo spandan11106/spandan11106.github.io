@@ -18,8 +18,6 @@ Here you will find :
 
 - [[notes/index| note]] - Will have explanations of things I am learning. This will be helpful for me to refer when I am stuck. 
 
-- `TIL` - For quick stuff I learned or discovered during the day. 
-
 - [[ideas/index| ideas]] - Will have half-baked ideas, hypothesis, things I want to explore. 
 
 - `hobbies` - List of current and potential hobbies and how I am pursuing them. 
