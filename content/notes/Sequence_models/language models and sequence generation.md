@@ -50,4 +50,17 @@ This process sometimes generates the unknown word token `UNK`, one thing we coul
 ### Vocab level
 Here in the examples before we had word level vocabulary. We can also have a letter level vocab with all the alphabets, numbers, symbols, capital alphabets and so on.
 
-Such a vocab is only used in specialized applications where we need to have more vocabulary. 
+Such a vocab is only used in specialized applications where we need to have more vocabulary.  
+
+### Vanishing Gradients with `RNNs`
+Suppose we have a sentence as follows : **The cat which already ate ........., was full**. 
+
+Now if we had multiple cats then : **The cats which already ate ........., were full**. 
+
+So here our model need to remember that the word `cat` was singular or plural, so as to use the proper word at the end of the sentence. So if the word is near the end of sentence, it is influenced very less by a word which is at the start if the sequence is long.
+
+This is a weakness of the basic `RNN` algorithm. This is a issue of vanishing gradients.
+
+Exploding gradients do not usually occur but when they do we can apply gradient clipping. We look at our gradient vector and if it is bigger than some threshold, we re-scale some of the vectors.
+
+Vanishing gradients is a problem which is much harder to solve. Next we will take a look at [[greater recurrent units | Greater Recurrent Units (GRU)]] which are a very effective solution for addressing the vanishing gradient problem and will allow our `RNN` to capture much longer range dependencies. 
