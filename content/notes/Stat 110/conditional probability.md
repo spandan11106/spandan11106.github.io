@@ -68,3 +68,4 @@ $$
 
 - $P(A|B) = \frac{P(B|A).P(A)}{P(B)}$. This is also known as `Bayes Rule`
 
+### Some Problems
