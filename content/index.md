@@ -20,7 +20,7 @@ Here you will find :
 
 - `hobbies` - List of current and potential hobbies and how I am pursuing them. 
 
-- `random` - Random stuff which I cannot categorize. 
+- [[random/index| random]] - Random stuff which I cannot categorize. 
 
 This is what I have planned to show here. You might find some other stuff also.  
 
