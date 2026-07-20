@@ -41,4 +41,32 @@ P(y = 1 | c, t) = \sigma(o_c^T e_c)
 $$
 We have the ratio of positive to negative example as `1 : k`. 
 
-Now let us look at [[sentiment classification | Sentiment Classification]]. 
+### GloVe Word Vectors
+This algorithm is also known as the global vectors for word representation. So again let us use this example :
+$$
+\text{I want a glass of orange juice to go along with my cereal.}
+$$
+Now we define a term $X_{ij}$ as the number of times $i$ appears in context of $j$. For the `GloVe` algorithm we define the target to appear in close proximity of the context. Hence we can say for this algorithm :
+$$
+X_{ij} = X_{ji}
+$$
+$X_{ij}$ is a count which capture how often do $i$ and $j$ appear close to each other. So the aim of the algorithm is to minimize the following :
+$$
+\sum_{i=1}^{10,000} \sum_{j=1}^{10,000} f(X_{ij})(O_i^Te_J + b_i + b_j - \text{log}X_{ij})^2
+$$
+where $f(X_{ij})$ is a weighted term. This term is $0$ when $X_{ij} = 0$. Also this factor is used to normalize certain word appearances. For example words like `this`, `of` etc. appear more and word like `durian` appear less in the English corpus, so this factor tries giving equal compute to both kind of words.
+
+In this algorithm we see that $O_i$ and $e_j$ are symmetric. 
+
+### Debiasing Word Embeddings
+Here we will learn how to remove bias as in gender bias, race bias and so on from word embeddings. Word embeddings can reflect gender, ethnicity, age, sexual orientation, and other biases of the text used to train the model. 
+
+Let"s say we already learned word embeddings. The first thing we do is identity the bias direction. For this example we will work with gender bias, but this ideas work for any other bias as well. In order to get the direction we calculate values such as :
+$$
+e_{he} - e_{she} \ \ \ ; \ \ \ e_{male} - e_{female}
+$$
+and some more and average them out.
+
+Now for every word that is not definitional, project to get rid of bias. The last step is to make the gender defining words equidistant from their biasing qualities. One example is that the word babysitting is closer to grandma then grandpa. What we could do is place the words grandpa and grandma all equal distance from the perpendicular line passing from the word babysitting. 
+
+Let us see more on [[sequence models | Sequence Models]].

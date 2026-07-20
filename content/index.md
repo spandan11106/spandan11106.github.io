@@ -14,13 +14,13 @@ I do not want to be so intellectually disabled that a day without `AI` would mak
 [[2026|This is what I am upto this year.]]
 
 Here you will find : 
-- [[project_logs/index|project logs]] - They will contain the research, the decisions and why I took took them, how a certain piece of code works and why it works, notes and some other stuff. 
-
 - [[notes/index| note]] - Will have explanations of things I am learning. This will be helpful for me to refer when I am stuck. 
 
 - [[ideas/index| ideas]] - Will have half-baked ideas, hypothesis, things I want to explore. 
 
 - `hobbies` - List of current and potential hobbies and how I am pursuing them. 
+
+- `random` - Random stuff which I cannot categorize. 
 
 This is what I have planned to show here. You might find some other stuff also.  
 
