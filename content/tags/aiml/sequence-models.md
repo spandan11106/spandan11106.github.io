@@ -1,0 +1,1 @@
+Notes on models for sequential data - RNNs, LSTMs, GRUs, and attention mechanism. Covers the pre-Transformer lineage of architectures for handling temporal dependencies, vanishing gradients, and memory in sequences. 

@@ -2,7 +2,6 @@
 title: Urban tree health mapping application
 enableToc: "true"
 tags:
-  - seedling
   - AIML/vision
 ---
 ### How I got this idea

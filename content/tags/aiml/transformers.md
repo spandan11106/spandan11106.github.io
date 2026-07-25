@@ -1,0 +1,1 @@
+Notes on the Transformer architecture and its derivatives - self-attention, multi-head attention, positional encoding, and the core "Attention is All You Need" paper, plus modern  architecture built on or inspired by the Transformer paradigm. 
