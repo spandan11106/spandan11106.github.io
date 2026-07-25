@@ -18,6 +18,8 @@ Here you will find :
 
 - [[ideas/index| ideas]] - Will have half-baked ideas, hypothesis, things I want to explore. 
 
+- [[papers/index| papers]] - Has explanation of academic papers I have read. 
+
 - `hobbies` - List of current and potential hobbies and how I am pursuing them. 
 
 - [[random/index| random]] - Random stuff which I cannot categorize. 
