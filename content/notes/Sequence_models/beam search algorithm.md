@@ -43,5 +43,5 @@ If we use a large $B$ we get better results but the algorithm is slower. If we c
 As $B$ increase the increase in quality decreases. Unlike exact search algorithms like `BFS` or `DFS`, Beam Search runs faster but is not guaranteed to find exact maximum. 
 
 ### Error Analysis in Beam Search
-Beam search is an approximate search algorithm, ​also called a heuristic search algorithm. ​And so it doesn't always output the most likely sentence. ​It's only keeping track of B equals 3 or 10 or 100 top possibilities.
+Beam search is an approximate search algorithm, ​also called a heuristic search algorithm. ​And so it doesn't always output the most likely sentence. ​It's only keeping track of B equals 3 or 10 or 100 top possibilities. 
 
