@@ -45,3 +45,52 @@ As $B$ increase the increase in quality decreases. Unlike exact search algorithm
 ### Error Analysis in Beam Search
 Beam search is an approximate search algorithm, ​also called a heuristic search algorithm. ​And so it doesn't always output the most likely sentence. ​It's only keeping track of B equals 3 or 10 or 100 top possibilities. 
 
+Suppose while training the network we have a particular example whose best translation we have. The beam search algorithms will might give a translation which is not the best one. Suppose the best translation is given by $y^*$ and the translation given by the beam search is given by $\hat{y}$. We find the probability of both this translations with respect to the input i.e. $P(y^* | x)$ and $P(\hat{y} | x)$ are calculated. 
+
+Here we can have either
+$$
+P(y^* | x) > P(\hat{y} | x)
+$$
+or
+$$
+P(y* | x) \leq P(\hat{y} | x)
+$$
+
+Depending on which of these two cases hold true, we will be able to more clearly ascribe this particular error to one of the `RNN` or the beam search algorithm. 
+
+#### Case 1 : $P(y^* | x) > P(\hat{y} | x)$
+Here Beam search chooses $\hat{y}$ but $y^*$ attains higher value in probability. It is the job of the search algorithm to provide us the translation with the highest probability, so here we can conclude that Beam search is at fault. 
+
+#### Case 2 : $P(y^* | x) \leq P(\hat{y} | x)$
+We know that the translation $y^*$ is better than $\hat{y}$, but the `RNN` model predicts otherwise. So we can conclude that here the `RNN` model is at fault. 
+
+In the error analysis process we go through all the errors in the `dev` set and see whose error it was; beam search error or `RNN` error. Later we figure out what fraction of errors are due to beam search vs. `RNN` model.
+
+Only if we find that beam search is responsible for a lot of errors, then maybe we can increase the beam width. If the model is at fault then we add regularization, get more training data, or try a different architecture.
+
+### Bleu score
+One of the issues with translating from one language to another is that we can have more then one valid and equally good translation of the same sentence. If there are multiple great answers we go through somethings called as `BLEU` score. 
+
+What the `BLEU` score does is it scores a machine generated translation. As long as the machine generated translation is pretty close to any of the references provided by humans, then it will get a high `BLEU` score. `BLEU` stands for bilingual evaluation understudy. 
+
+Here we compute modified precision. Let us take a example of uni-grams i.e. single words. For each word of the machine translation we see the maximum number of time it appears in a reference. Suppose the reference is : `The cat is on the mat` and the machine translation is : `The cat the cat mat`. So here the work word cat appears only once in the reference and the word the twice and the work mat once. So the modified precision is $4/5$. 
+
+This process can be repeated for bi-grams i.e. pair of words and so on until n-grams. We denote the modified precision of a n-gram by $P_n$. 
+
+So the combined `BLEU` score of the sentence is :
+$$
+\text{BP} \times exp\bigg( \frac{1}{k} \sum_{n=1}^{k} P_n\bigg)
+$$
+Here $BP$ is the Brevity penalty. It turns out that if we have short translations, it is easier to get high precision. 
+$$
+\text{BP} = exp(1 - \text{reference\_output\_length}/\text{MT\_output\_length})
+$$
+Also if `MT_output_length > reference_output_length` then $BP = 1$. 
+
+Now let us look at the [[attention model | Attention Model]] which works much better then the standard `RNN` model. 
+
+
+
+
+
+
